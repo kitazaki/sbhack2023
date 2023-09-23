@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get_capture</title>
+</head>
+<body>
+    <h3>AチームはAボタンを押してね！</h3>
+    <h3>BチームはBボタンを押してね！</h3>
+    <video id="video" width="512" height="512" autoplay></video>
+    <canvas id="canvas" class="canvas-wrapper"></canvas>
+</body>
+
+<script src="{{url_for('static', filename='main.js')}}"></script>
+
+<style>
+    /* canvasは非表示にする */
+    #canvas {
+        display: none !important;
+    }
+</style>
+</html>
+
