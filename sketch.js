@@ -21,9 +21,9 @@ function setup() {
     // load images
     for (let i = 0; i < table.getRowCount() ; i++) {
         images[i] = [];
-        for (let j = 0; j < 4 ; j++) {
+        for (let j = 0; j < 2 ; j++) {
             animal_names[i] = table.get(i,0)
-            const imageName = './images/' + animal_names[i] + '_' + nf(j, 1) + '.png';
+            const imageName = './images/' + animal_names[i] + '.png';
             images[i][j] = loadImage(imageName);
         }
         position_x[i] = random(width);
