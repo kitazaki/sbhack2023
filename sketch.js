@@ -34,7 +34,7 @@ function setup() {
 function draw() {
     count++;
 
-    if (count > 3) {
+    if (count > 2) {
         count = 0
     }
 
