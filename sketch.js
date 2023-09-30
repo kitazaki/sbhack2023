@@ -62,6 +62,6 @@ function draw() {
         // display animal name
         fill(255, 192);
         textSize(width/30);
-        text(animal_names[i], position_x[i], position_y[i]);
+        //text(animal_names[i], position_x[i], position_y[i]);
     }
 }
