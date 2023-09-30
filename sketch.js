@@ -42,7 +42,7 @@ function draw() {
     image(background, 0, 0, width, height);
 
     for (let i = 0; i < table.getRowCount() ; i++) {
-        image(images[i][count], position_x[i], position_y[i], width/10, width/10);
+        image(images[i][count], position_x[i], position_y[i], width/5, width/5);
         position_x[i] += random(width/step) - width/step/2
         position_y[i] += random(height/step) - height/step/2
         if (position_x[i] < 0){
